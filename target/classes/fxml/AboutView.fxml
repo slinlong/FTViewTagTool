@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slinlong.controller.AboutViewController">
+   <bottom>
+      <Label prefHeight="20.0" text="版权所有：深圳市行健自动化" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </BorderPane.margin>
+      </Label>
+   </bottom>
+   <left>
+      <VBox prefWidth="274.0" style="-fx-background-color: #EEE; -fx-border-color: #FFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="软件介绍：">
+               <VBox.margin>
+                  <Insets left="20.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label prefHeight="72.0" prefWidth="231.0" text="本软件用于FactoryTalk SE软件标签表快速生成。" textOverrun="CLIP" wrapText="true">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="181.0" fitWidth="224.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../image/SE1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="109.0" fitWidth="226.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@../image/SE2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox style="-fx-background-color: #EEE; -fx-border-color: #FFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Accordion fx:id="root" VBox.vgrow="ALWAYS">
+              <panes>
+                <TitledPane fx:id="v1Pane" animated="false" text="V1.0">
+                     <content>
+                        <VBox prefHeight="699.0" prefWidth="922.0">
+                           <children>
+                              <Label prefHeight="45.0" prefWidth="889.0" text="2015年7月发布，主要实现标准目标的导入，生成FactoryTalk SE标签和报警标签文件，用于快速标签生成。" textOverrun="CLIP" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="350.0" fitWidth="716.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/FTTagTool1.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                </TitledPane>
+                <TitledPane fx:id="v2Pane" animated="false" prefHeight="829.0" prefWidth="924.0" text="V2.0">
+                     <content>
+                        <VBox>
+                           <children>
+                              <Label prefHeight="45.0" prefWidth="887.0" text="2017年12月发布，增加结构模板的导入功能；" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="350.0" fitWidth="591.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/FTTagTool2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                </TitledPane>
+                <TitledPane fx:id="v3Pane" animated="false" text="V3.0">
+                     <content>
+                        <VBox prefHeight="784.0" prefWidth="922.0">
+                           <children>
+                              <Label prefHeight="45.0" prefWidth="794.0" text="2020年9月发布，增加在线编辑功能，提高工具软件运行效率。" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <ImageView fitHeight="350.0" fitWidth="822.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../image/FTTagTool3.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                </TitledPane>
+                  <TitledPane fx:id="v3_1Pane" animated="false" layoutX="10.0" layoutY="56.0" text="V3.1">
+                     <content>
+                        <VBox prefHeight="784.0" prefWidth="922.0">
+                           <children>
+                              <Label prefHeight="45.0" prefWidth="794.0" text="2021年3月发布，调整屏幕分辨率自适应。" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+                  <TitledPane fx:id="v3_2Pane" animated="false" layoutX="10.0" layoutY="79.0" text="V3.2">
+                     <content>
+                        <VBox prefHeight="784.0" prefWidth="922.0">
+                           <children>
+                              <Label prefHeight="45.0" prefWidth="794.0" text="2022年3月发布，兼容FactoryTalk View SE 10.0版本报表标签兼容问题；修复了空行标签的问题。" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </TitledPane>
+              </panes>
+            </Accordion>
+         </children></VBox>
+   </center>
+</BorderPane>

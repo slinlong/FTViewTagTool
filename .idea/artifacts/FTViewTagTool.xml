@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="FTViewTagTool">
+    <output-path>$PROJECT_DIR$/out/artifacts/FTViewTagTool</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.slinlong.MainApp" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="exe" />
+        <option name="title" value="FTViewTagTool" />
+        <option name="vendor" value="Slinlong" />
+        <option name="version" value="3.2" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="FTViewTagTool.jar">
+        <element id="module-output" name="FTViewTagTool" />
+      </element>
+      <element id="library" level="project" name="Maven: org.apache.poi:poi:4.1.0" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:4.1.0" />
+      <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:4.1.0" />
+    </root>
+  </artifact>
+</component>

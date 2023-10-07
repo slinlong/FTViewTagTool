@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+         <children>
+            <TextArea editable="false" focusTraversable="false" text="1 在线模式相关操作：&#10;1.1 获取xls模板&#10;依次点击生成标准模板示例、保存模板按钮，可生成标准模板xls；依次点击生成结构模板示例、保存模板按钮，可生成结构模板xls。&#10;1.2 导入编辑好xls源表&#10;点击导入标准模板按钮，可导入标准xls源表；点击导入结构模板按钮，可生成结构xls源表。&#10;1.3 在线编辑源模板&#10;通过新建、镜像、删除和清空等按钮操作进行结构表格（上表）和组表格（下表）进行操作，如果组表格为空，则默认是标准目标，反之为结构模板。&#10;1.4 导出Tag表&#10;点击导出Tag表格按钮，导出Tag表，用于FactoryTalk SE标签导入用。&#10;1.5 导出Alarm表&#10;点击导出Alarm表格按钮，导出Alarm表，用于FactoryTalk SE报警标签导入用。&#10;&#10;2 表格导入模式&#10;2.1 导入编辑好xls源表&#10;点击导入标准模板按钮，可导入标准xls源表；点击导入结构模板按钮，可生成结构xls源表。&#10;2.2 导出Tag表&#10;点击导出Tag表格按钮，导出Tag表，用于FactoryTalk SE标签导入用。&#10;2.3 导出Alarm表&#10;点击导出Alarm表格按钮，导出Alarm表，用于FactoryTalk SE报警标签导入用。&#10;&#10;3 其他&#10;3.1 数据类型3类，D为数字量，A为模拟量，S为字符串（默认为SE内存变量）。&#10;3.2 报警等级8级，可取1-8级别。&#10;3.3 报警类型5类，分别为ON、OFF、COS、COSON、COSOFF，分别代表：1报警、0报警、1-0-1报警，0-1报警、1-0报警。" wrapText="true" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextArea>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane  prefHeight="79.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slinlong.controller.SetDialogViewController">
+   <children>
+      <Label layoutX="30.0" layoutY="27.0" text="默认文件路径：">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pathFld" layoutX="139.0" layoutY="25.0" prefHeight="23.0" prefWidth="396.0" />
+      <Button fx:id="openPathBtn" layoutX="535.0" layoutY="25.0" mnemonicParsing="false" text="//" />
+   </children>
+</AnchorPane>

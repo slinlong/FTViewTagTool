@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/MainApp.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/controller/AboutViewController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/controller/MainViewController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/controller/OnlineModelViewController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/controller/SetDialogViewController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/controller/TableModelViewController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/function/TagSheet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/AlarmModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/AnalogTag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/DigtalTag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/ExcelModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/ExcelModelProperty.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/SETag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/SetModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/StringTag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/TagFolder.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/model/TagModel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/util/ExcelUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/util/UIUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/slinlong/util/Util.java" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane  prefHeight="600.0" prefWidth="1200.0"  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slinlong.controller.MainViewController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="模式">
+            <items>
+                  <MenuItem fx:id="importTableMenuItem" mnemonicParsing="false" text="表格导入模式" />
+                  <MenuItem fx:id="onlineMenuItem" mnemonicParsing="false" text="在线编辑模式" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="退出" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="设置">
+                <items>
+                    <MenuItem fx:id="pathSetMenuItem" mnemonicParsing="false" text="文件路径设置" />
+                </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="关于">
+               <items>
+                  <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="关于" />
+                  <MenuItem fx:id="helpMenuItem" mnemonicParsing="false" text="帮助" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <BorderPane fx:id="borderPane"  BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
